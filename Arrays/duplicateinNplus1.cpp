@@ -4,7 +4,7 @@ using namespace std;
 
 int duplicatenum(vector<int>&v)
 {
-	    int slow=v[0];
+	int slow=v[0];
         int fast=v[0];
         do{
             slow=v[slow];
